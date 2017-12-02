@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="process" type="id">false</item>
+    <item name="action_tv" type="id">false</item>
+    <item name="app_icon" type="id">false</item>
+    <item name="app_name" type="id">false</item>
+    <item name="app_version" type="id">false</item>
+    <item name="app_size" type="id">false</item>
+    <item name="action_icon" type="id">false</item>
+    <item name="tittle_process" type="id">false</item>
+    <item name="backup_path" type="id">false</item>
+    <item name="app_list" type="id">false</item>
+    <item name="folder" type="id">false</item>
+    <item name="check" type="id">false</item>
+    <item name="backup_path_textedit" type="id">false</item>
+    <item name="backup_all" type="id">false</item>
+    <item name="back_btn" type="id">false</item>
+    <item name="title_text" type="id">false</item>
+    <item name="tittle_bar" type="id">false</item>
+    <item name="f_icon" type="id">false</item>
+    <item name="check_single" type="id">false</item>
+    <item name="tittle_text" type="id">false</item>
+    <item name="exit_btn" type="id">false</item>
+</resources>

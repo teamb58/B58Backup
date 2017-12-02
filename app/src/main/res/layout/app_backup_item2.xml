@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_icon" android:padding="3.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/action_icon" android:paddingRight="8.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_check_on" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+    <ProgressBar android:id="@id/process" android:paddingRight="8.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="?android:attr/progressBarStyleSmall" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/text_blue" android:ellipsize="marquee" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/app_icon" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/app_icon" android:layout_below="@id/app_name">
+        <TextView android:textSize="13.0sp" android:ellipsize="marquee" android:id="@id/app_version" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="adb" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0sp" android:ellipsize="marquee" android:gravity="right" android:id="@id/action_tv" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="adb" android:singleLine="true" android:layout_weight="20.0" />
+        <TextView android:textSize="13.0sp" android:ellipsize="marquee" android:gravity="right" android:id="@id/app_size" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="adb" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

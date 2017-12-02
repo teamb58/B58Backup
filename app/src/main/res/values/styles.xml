@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="info_bar_text_bottom_style">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:textColor">@color/color_ffffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Theme.SearchActivity.Wallpaper" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">#ff29549f</item>
+        <item name="android:divider">@color/gray</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="Theme.SelectActivity" parent="@android:style/Theme.DeviceDefault.DialogWhenLarge.NoActionBar">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">#ff29549f</item>
+        <item name="android:divider">@color/gray</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+</resources>

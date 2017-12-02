@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="17.0sp" android:gravity="top" android:id="@id/backup_path_textedit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/new_folder" android:selectAllOnFocus="true" android:imeOptions="actionNext" />
+</LinearLayout>

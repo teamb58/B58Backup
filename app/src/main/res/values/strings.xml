@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Backup</string>
+    <string name="sd_no_write">SD write protected or damage</string>
+    <string name="backup_path">app backup path</string>
+    <string name="stop_system_app">have %1$d app can disable</string>
+    <string name="new_folder">New Folder</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="backup_path_change">apk backup location change</string>
+    <string name="backup_all_confirm">backup all app?</string>
+    <string name="cancel">Cancel?</string>
+    <string name="head_title_app_backup">Backup</string>
+    <string name="backup_all">Backup all?</string>
+    <string name="head_title">App Manager</string>
+</resources>

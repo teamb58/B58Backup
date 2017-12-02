@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_agenda" android:id="@id/backup_all" android:title="@string/backup_all" />
+    <item android:icon="@android:drawable/ic_menu_save" android:id="@id/backup_path" android:title="@string/backup_path" />
+</menu>
